@@ -10,7 +10,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // or "/api/**" if you're only using that path
-                .allowedOrigins("https://foodingo.netlify.app", "https://foodingo.tapesh.me","https://admin-foodingo.tapesh.me")
+                .allowedOrigins("https://foodingo.netlify.app", "https://foodingo.tapesh.me","https://admin-foodingo.tapesh.me","https://app.foodingo.com")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
