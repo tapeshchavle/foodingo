@@ -64,7 +64,8 @@ public class SecurityConfig {
 	private UrlBasedCorsConfigurationSource corsConfigurationSource() {
 		CorsConfiguration config = new CorsConfiguration();
 		config.setAllowedOrigins(List.of("http://localhost:5173", "http://localhost:5174",
-				"https://foodingo.netlify.app", "https://admin-foodingo.tapesh.me", "https://foodingo.tapesh.me","https://app.foodingo.com"));
+				"https://foodingo.netlify.app", "https://admin-foodingo.tapesh.me", "https://foodingo.tapesh.me","https://app.foodingo.com","https://localhost",  // Add this for Android
+                    "http://localhost"));
 		config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
 		config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
 		config.setAllowCredentials(true);
