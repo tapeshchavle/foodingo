@@ -14,7 +14,7 @@
 **Foodingo** is a production-grade, full-stack food ordering platform backend built with **Spring Boot 3.4**. It powers a seamless food ordering experience with secure authentication, real-time cart management, integrated payment processing via Razorpay, and cloud-native image storage on AWS S3 — all deployed to **Azure Container Apps** with CI/CD via GitHub Actions.
 
 > 🌐 **Live API**: [foodingo-api.azurewebsites.net](https://foodingo-api.azurewebsites.net)  
-> 📖 **API Docs**: [Swagger UI](https://foodingo-api.azurewebsites.net/swagger-ui.html)
+> 📖 **API Docs**: [Swagger UI](https://foodingo-api-awasc8h4d7d7cmft.centralindia-01.azurewebsites.net/swagger-ui/index.html)
 
 ---
 
@@ -246,7 +246,7 @@ foodingo/
 Once the application is running, access the full interactive API documentation at:
 
 - **Local**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
-- **Production**: [https://foodingo-api.azurewebsites.net/swagger-ui.html](https://foodingo-api.azurewebsites.net/swagger-ui.html)
+- **Production**: [https://foodingo-api-awasc8h4d7d7cmft.centralindia-01.azurewebsites.net/swagger-ui/index.html)
 
 > 💡 **Tip**: Use the **Authorize** button in Swagger UI to paste your JWT token and test authenticated endpoints.
 
