@@ -9,6 +9,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String welcome(){
-        return "Welcome to Foodingo Application";
+        return "Welcome to Foodingo Application ";
     }
 }
